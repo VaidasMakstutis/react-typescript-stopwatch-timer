@@ -1,9 +1,9 @@
-import React from "react";
+import Timer from "./Components/Timer/Timer";
 
 const App = () => {
   return (
     <div className="App" style={{ textAlign: "center", marginTop: "40px" }}>
-      <h2>This is test!</h2>
+      <Timer />
     </div>
   );
 };
